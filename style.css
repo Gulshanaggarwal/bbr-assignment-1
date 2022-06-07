@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* top-footer */
+
+.top-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(17, 222, 154);
+    padding: 0.5rem;
+}
+.top-footer-left-wrapper, .top-footer-right-wrapper{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-footer-right-wrapper-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/* Header */
+
+.header{
+    background-color: rgb(240, 240, 245);
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+.nav>ul{
+    display: flex;
+    gap:2rem;
+}
+.nav>ul>li>a{
+    color: black;
+}
+.Donate-button{
+    background-color: rgb(17, 222, 154);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
